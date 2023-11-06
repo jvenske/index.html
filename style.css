@@ -1,0 +1,53 @@
+body{
+    padding: 60px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+h1{
+    color: rgb(41, 100, 39);
+}
+
+nav a {
+    text-decoration:none;
+}
+
+nav li {
+    display:inline;
+    margin-right: 20px;
+}
+
+nav {
+    outline-style: solid;
+    outline-color: rgb(41, 100, 39);
+    outline-width:2px;
+}
+
+article p{
+    text-align-last: right;
+    
+}
+
+article{
+    background-color: rgb(238, 252, 238);
+    border: 2px solid rgb(219, 240, 219);
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+@media screen and (max-width:768px){
+    article {
+        font-size: 8px;
+    }   
+}
+
+@media screen and (min-width:1200px){
+    article {
+        font-size: 18px;
+    }   
+}
